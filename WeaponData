@@ -1,0 +1,8 @@
+"CORE"
+"ATK": 99999999,
+"Image": "",
+"DEF": 99999999,
+"Attack Time": 10,
+"Idle Time": 2,
+"Cooldown": 30,
+"Passive": {"Name": "DEVELOPER", "Description": "5 Second stun Upon Hit, 1% chance to backfire on the developer and remove all ATK and DEF"},
