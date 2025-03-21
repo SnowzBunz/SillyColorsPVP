@@ -157,7 +157,7 @@
     "Name": "DETERMINATION",
     "Elo": 500,
     "Coin": 50000,
-    "Effect": "To get determined, giving +500% ATK and +500% DEF, but you always loose the dice roll",
+    "Effect": "1% To get determined, giving +500% ATK and +500% DEF, but you always loose the dice roll",
     "Image": ""
   },
   {
