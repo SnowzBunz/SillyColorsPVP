@@ -1,1 +1,170 @@
-
+[
+  {
+    "Name": "Raging Fury",
+    "Elo": 150,
+    "Coin": 8000,
+    "Effect": "20% More ATK, but color changes take 1 extra turn to process",
+    "Image": ""
+  },
+  {
+    "Name": "Glass Cannon",
+    "Elo": 225,
+    "Coin": 12000,
+    "Effect": "40% More ATK, but -35% DEF and color changes cost 5% HP",
+    "Image": ""
+  },
+  {
+    "Name": "Bloodthirst",
+    "Elo": 200,
+    "Coin": 11000,
+    "Effect": "Heal 4% of damage dealt, but color changes are blocked for 1 turn after a kill",
+    "Image": ""
+  },
+  {
+    "Name": "Keen Strikes",
+    "Elo": 175,
+    "Coin": 9000,
+    "Effect": "25% Crit Chance (2x DMG), but you take 15% of the Crit DMG",
+    "Image": ""
+  },
+  {
+    "Name": "Precision Blows",
+    "Elo": 160,
+    "Coin": 8000,
+    "Effect": "25% More DMG, but color changes have a 25% chance to fail",
+    "Image": ""
+  },
+  {
+    "Name": "Titan's Guard",
+    "Elo": 180,
+    "Coin": 10000,
+    "Effect": "30% More DEF, but you cannot change colors for 2 turns after taking damage",
+    "Image": ""
+  },
+  {
+    "Name": "Unstoppable Force",
+    "Elo": 210,
+    "Coin": 11000,
+    "Effect": "Immune to knockback, but cannot defend enemy attacks for 2 turns after attacking",
+    "Image": ""
+  },
+  {
+    "Name": "Thorned Armor",
+    "Elo": 200,
+    "Coin": 11000,
+    "Effect": "Reflect 12% of damage taken, but color swaps take 1 extra turn",
+    "Image": ""
+  },
+  {
+    "Name": "Blessing of Resilience",
+    "Elo": 225,
+    "Coin": 12000,
+    "Effect": "25% DEF, but you lose your next turn if stunned",
+    "Image": ""
+  },
+  {
+    "Name": "Iron Will",
+    "Elo": 185,
+    "Coin": 10000,
+    "Effect": "-25% incoming DMG and 50% More DEF, but color swaps cost 5% HP",
+    "Image": ""
+  },
+  {
+    "Name": "Swift Stride",
+    "Elo": 170,
+    "Coin": 9000,
+    "Effect": "Faster turns, but you cannot defend for 1 turn after changing colors",
+    "Image": ""
+  },
+  {
+    "Name": "Evasive Footwork",
+    "Elo": 180,
+    "Coin": 10000,
+    "Effect": "15% Dodge Chance, but color swaps become slower (1 turn delay)",
+    "Image": ""
+  },
+  {
+    "Name": "Adrenaline Surge",
+    "Elo": 210,
+    "Coin": 11000,
+    "Effect": "25% More ATK, but color changes take 2 turns while under adrenaline",
+    "Image": ""
+  },
+  {
+    "Name": "BeanLuck",
+    "Elo": 25,
+    "Coin": 1500,
+    "Effect": "25% More ATK and 25% More DEF, but you have the chance to get bean fever, dropping ATK and DEF by 50% for 3 rounds",
+    "Image": ""
+  },
+  {
+    "Name": "Momentum Rush",
+    "Elo": 225,
+    "Coin": 12000,
+    "Effect": "50% More DEF for 3 sec after a heavy hit, but opponent can block your next color change",
+    "Image": ""
+  },
+  {
+    "Name": "Echoed Strike",
+    "Elo": 250,
+    "Coin": 13000,
+    "Effect": "Every 4th attack deals 50% extra damage, but color swaps have a 10% chance to randomize",
+    "Image": ""
+  },
+  {
+    "Name": "Shadow Veil",
+    "Elo": 275,
+    "Coin": 14000,
+    "Effect": "Turn invincible for 1 round at 15% HP, but you cannot change colors for the next 3 rounds",
+    "Image": ""
+  },
+  {
+    "Name": "Final Stand",
+    "Elo": 300,
+    "Coin": 14000,
+    "Effect": "45% More ATK & DEF at 10% HP, but you lose the next turn upon dropping below 10% HP",
+    "Image": ""
+  },
+  {
+    "Name": "Ultimate Theif",
+    "Elo": 260,
+    "Coin": 13000,
+    "Effect": "10% chance to steal your enemies next turn, but you cannot change colors with that turn",
+    "Image": ""
+  },
+  {
+    "Name": "Gambler's Resolve",
+    "Elo": 240,
+    "Coin": 12000,
+    "Effect": "20% chance to take 50% less DMG per hit, but 20% chance to swap to the wrong color",
+    "Image": ""
+  },
+  {
+    "Name": "The Sherrif",
+    "Elo": 200,
+    "Coin": 10000,
+    "Effect": "150% More ATK but defending is disabled",
+    "Image": ""
+  },
+  {
+    "Name": "The Guardian",
+    "Elo": 200,
+    "Coin": 10000,
+    "Effect": "150% More DEF but attacking is disabled",
+    "Image": ""
+  },
+  {
+    "Name": "DETERMINATION",
+    "Elo": 500,
+    "Coin": 50000,
+    "Effect": "To get determined, giving +500% ATK and +500% DEF, but you always loose the dice roll",
+    "Image": ""
+  },
+  {
+    "Name": "First in line!",
+    "Elo": 50,
+    "Coin": 3500,
+    "Effect": "Always win the dice roll to go first, but -25% ATK and -25% DEF during the first turn",
+    "Image": ""
+  }
+]
