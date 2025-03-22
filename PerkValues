@@ -45,35 +45,35 @@
     "Name": "Unstoppable Force",
     "Elo": 210,
     "Coin": 11000,
-    "Effect": "Immune to knockback, but cannot defend enemy attacks for 2 turns after attacking",
+    "Effect": "Immune to stun/slow, but cannot defend enemy attacks for 2 turns after attacking",
     "Image": ""
   },
   {
     "Name": "Thorned Armor",
     "Elo": 200,
     "Coin": 11000,
-    "Effect": "Reflect 12% of damage taken, but color swaps take 1 extra turn",
+    "Effect": "Reflect 15% of damage taken, but color swaps take 1 extra turn",
     "Image": ""
   },
   {
     "Name": "Blessing of Resilience",
     "Elo": 225,
     "Coin": 12000,
-    "Effect": "25% DEF, but you lose your next turn if stunned",
+    "Effect": "25% More DEF, but you lose your next turn if stunned",
     "Image": ""
   },
   {
     "Name": "Iron Will",
     "Elo": 185,
     "Coin": 10000,
-    "Effect": "-25% incoming DMG and 50% More DEF, but color swaps cost 5% HP",
+    "Effect": "-25% incoming DMG and 50% More DEF, but color swaps remove 5% of your HP",
     "Image": ""
   },
   {
     "Name": "Swift Stride",
     "Elo": 170,
     "Coin": 9000,
-    "Effect": "Faster turns, but you cannot defend for 1 turn after changing colors",
+    "Effect": "Faster turns (2x), but you cannot defend for 1 turn after changing colors",
     "Image": ""
   },
   {
@@ -87,14 +87,14 @@
     "Name": "Adrenaline Surge",
     "Elo": 210,
     "Coin": 11000,
-    "Effect": "25% More ATK, but color changes take 2 turns while under adrenaline",
+    "Effect": "50% More ATK, but color changes take 2 turns while under adrenaline",
     "Image": ""
   },
   {
     "Name": "BeanLuck",
     "Elo": 25,
     "Coin": 1500,
-    "Effect": "25% More ATK and 25% More DEF, but you have the chance to get bean fever, dropping ATK and DEF by 50% for 3 rounds",
+    "Effect": "25% More ATK and 25% More DEF, but you have the chance (10%) to get bean fever, dropping ATK and DEF by 50% for 3 rounds",
     "Image": ""
   },
   {
@@ -143,21 +143,21 @@
     "Name": "The Sherrif",
     "Elo": 200,
     "Coin": 10000,
-    "Effect": "150% More ATK but defending is disabled",
+    "Effect": "150% More ATK but defending is disabled the entire match for you",
     "Image": ""
   },
   {
     "Name": "The Guardian",
     "Elo": 200,
     "Coin": 10000,
-    "Effect": "150% More DEF but attacking is disabled",
+    "Effect": "150% More DEF but attacking is disabled the entire match for you",
     "Image": ""
   },
   {
     "Name": "DETERMINATION",
     "Elo": 500,
     "Coin": 50000,
-    "Effect": "1% To get determined, giving +500% ATK and +500% DEF, but you always loose the dice roll",
+    "Effect": "1% To get determined, giving +500% ATK and +500% DEF for the next round, but a 15% to loose 10% of your max HP every ATK",
     "Image": ""
   },
   {
@@ -165,6 +165,13 @@
     "Elo": 50,
     "Coin": 3500,
     "Effect": "Always win the dice roll to go first, but -25% ATK and -25% DEF during the first turn",
+    "Image": ""
+  },
+  {
+    "Name": "Showdown!",
+    "Elo": 200,
+    "Coin": 25000,
+    "Effect": "1% to lasso your enemy during an ATK (20% if using Sherrifs Business), stunning them for the next 3 rounds, but you have the chance to lasso yourself (5%) and take the effects while defending ",
     "Image": ""
   }
 ]
