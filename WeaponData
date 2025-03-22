@@ -29,19 +29,19 @@
         "Attack Time": 10,
         "Idle Time": 3,
         "Cooldown": 15,
-        "Passive": {"Name": "Dust", "Description": "25% To sweep dust into the enemys face, blinding (skipping) them for their next turn"},
+        "Passive": {"Name": "Dust", "Description": "25% To sweep dust into the enemys face, skipping their next turn"},
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
     },
     {
         "WeaponName": "Bug Slayer",
-        "ATK": 250,
-        "DEF": 50,
+        "ATK": 750,
+        "DEF": 200,
         "Image": "",
         "Attack Time": 5,
         "Idle Time": 3,
         "Cooldown": 15,
-        "Passive": {"Name": "Test Session", "Description": "15% To spawn a cursed bug that skips the users next round"},
+        "Passive": {"Name": "Test Session", "Description": "25% To spawn a cursed bug that skips the enemies next round"},
         "ELOCost": "Tester Only",
         "CoinCost": "Tester Only"
     },
@@ -53,7 +53,7 @@
         "Attack Time": 5,
         "Idle Time": 3,
         "Cooldown": 10,
-        "Passive": {"Name": "Orb Of Justice", "Description": "25% To spawn a rainbow orb that deals 1.25x the current ATK x DEF"},
+        "Passive": {"Name": "Orb Of Justice", "Description": "25% To spawn a rainbow orb that deals 2x the current ATK x DEF"},
         "ELOCost": 50,
         "CoinCost": 12000
     },
