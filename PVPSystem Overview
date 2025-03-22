@@ -1,0 +1,51 @@
+ Outline for PvP Mode
+
+ 1. **Overview**
+   - **Objective**: Players compete in a strategic PvP mode where they can attack, defend, or change colors to achieve victory.
+   - **Winning Conditions**: 
+     - Eliminate the opponent by reducing their health to zero.
+     - Achieve the target color configuration before the opponent.
+   - **Match Duration**: Each round has a time limit of 2 minutes and 30 seconds.
+
+ 2. **Game Mechanics**
+   - **Turn Order**: 
+     - A dice roll determines which player goes first.
+   - **Actions**:
+     - **Attack**: 1 ATK = 1 DMG.
+     - **Defend**: 1 DEF = 1 less ATK taken, limit of 85%.
+     - **Change Colors**: Alter one color in the match to a color of your choice.
+   - **Color Configuration**:
+     - Each team has a unique set of colors.
+     - Colors start randomly and players must change them to match their target configuration.
+   - **Time Constraints**: Each action decision must be made within 15 seconds.
+
+ 3. **Weapons and Stats**
+   - **Weapon Types**: Each weapon has unique attack and defense animations.
+   - **Weapon Stats**: Detailed weapon statistics are available on GitHub.
+   - **Weapon Acquisition**: 
+     - Players start with a free basic weapon (e.g., Bean Bomb).
+     - Better weapons can be purchased using ELO points from a merchant.
+
+ 4. **Ranking and Rewards**
+   - **ELO System**:
+     - Gain 5 ELO for a win.
+     - Lose 3 ELO for a loss.
+   - **Leaderboard**: 
+     - PvP rankings reset at the start of each month.
+     - Top 3 players receive coins and badges.
+   - **Coin Rewards**:
+     - Winner receives 250 coins.
+     - Loser loses 50 coins.
+
+ 5. **Visual and Animation**
+   - **Perspective**: Above view of the color grid until an action is chosen.
+   - **Animations**: 
+     - Zoom-in cutscene plays for the player performing an action.
+     - Unique animations for each weapon’s attack and defense.
+
+ 6. **Release and Development**
+   - **Expected Release**: May-June.
+   - **Skill-Based Matchmaking**: Players are matched based on skill and weapon strength.
+
+ 7. **Additional Features**
+  - **Monthly Resets**: Regular resets to keep the leaderboard competitive.
