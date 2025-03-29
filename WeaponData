@@ -1,8 +1,8 @@
 [
     {
         "WeaponName": "CORE",
-        "ATK": 99999999,
-        "DEF": 99999999,
+        "ATK": 75000,
+        "DEF": 15000,
         "Image": "",
         "Attack Time": 10,
         "Idle Time": 2,
@@ -11,8 +11,20 @@
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
     },
+    {
+        "WeaponName": "GOD OF HYPERDEATH",
+        "ATK": 999999999999999999999999999999,
+        "DEF": 999999999999999999999999999999,
+        "Image": "",
+        "Attack Time": 10,
+        "Idle Time": 3,
+        "Cooldown": 15,
+        "Passive": {"Name": "Hopes And Dreams", "Description": "Ability to pull the entire map into a void, killing everyone ending in a tie"},
+        "ELOCost": "Developer Only",
+        "CoinCost": "Developer Only"
+    },
         "WeaponName": "Sherrifs Business",
-        "ATK": 250000,
+        "ATK": 25000,
         "DEF": 1950,
         "Image": "",
         "Attack Time": 5,
@@ -21,6 +33,17 @@
         "Passive": {"Name": "Sharpshooter", "Description": "5% Chance to fire 6 bullets, breaking the enemys attack & defend buttons for 3 rounds"},
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
+    {
+        "WeaponName": "Abyss Touched Blade",
+        "ATK": 27500,
+        "DEF": 2500,
+        "Image": "",
+        "Attack Time": 5,
+        "Idle Time": 3,
+        "Cooldown": 30,
+        "Passive": {"Name": "Omen Of Ruff", "Description": "Darkens the everyones screen for 5 Seconds. 1% To Instant Kill"},
+        "ELOCost": "Ruff Only",
+        "CoinCost": "Ruff Only"
     },
         "WeaponName": "Mad Scientist",
         "ATK": 2500,
@@ -91,18 +114,6 @@
         "Passive": {"Name": "Reflector", "Description": "5% Chance to reflect all incoming ATK on opponent"},
         "ELOCost": 100,
         "CoinCost": 10000
-    },
-    {
-        "WeaponName": "Abyss Touched Blade",
-        "ATK": 27500,
-        "DEF": 2500,
-        "Image": "",
-        "Attack Time": 5,
-        "Idle Time": 3,
-        "Cooldown": 30,
-        "Passive": {"Name": "Omen Of Ruff", "Description": "Darkens the everyones screen for 5 Seconds. 1% To Instant Kill"},
-        "ELOCost": "Ruff Only",
-        "CoinCost": "Ruff Only"
     },
     {
         "WeaponName": "BeanBomb",
