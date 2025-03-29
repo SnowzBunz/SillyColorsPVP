@@ -13,7 +13,7 @@
     },
         "WeaponName": "Sherrifs Business",
         "ATK": 250000,
-        "DEF": 1500,
+        "DEF": 1950,
         "Image": "",
         "Attack Time": 5,
         "Idle Time": 1,
@@ -22,21 +22,32 @@
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
     },
+        "WeaponName": "Mad Scientist",
+        "ATK": 2500,
+        "DEF": 1950,
+        "Image": "",
+        "Attack Time": 10,
+        "Idle Time": 1,
+        "Cooldown": 10,
+        "Passive": {"Name": "Investigate!", "Description": "25% To look deep into your targets brain and disable their ability to change colors for the next round"},
+        "ELOCost": "ARG2 Reward",
+        "CoinCost": "ARG2 Reward"
+    },
         "WeaponName": "Janitor",
-        "ATK": 35000,
+        "ATK": 3000,
         "DEF": 1,
         "Image": "",
         "Attack Time": 10,
         "Idle Time": 3,
         "Cooldown": 15,
         "Passive": {"Name": "Dust", "Description": "25% To sweep dust into the enemys face, skipping their next turn"},
-        "ELOCost": "ARG Reward",
-        "CoinCost": "ARG Reward"
+        "ELOCost": "ARG1 Reward",
+        "CoinCost": "ARG1 Reward"
     },
     {
         "WeaponName": "Bug Slayer",
-        "ATK": 750,
-        "DEF": 200,
+        "ATK": 3200,
+        "DEF": 500,
         "Image": "",
         "Attack Time": 5,
         "Idle Time": 3,
@@ -125,7 +136,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 20,
-        "Passive": {"Name": "Phantom Shift", "Description": "10% chance to phase out of existence for 3 seconds, making you untargetable."},
+        "Passive": {"Name": "Phantom Shift", "Description": "10% chance to phase out of existence seconds, making you untargetable the next round"},
         "ELOCost": 250,
         "CoinCost": 28000
     },
@@ -137,7 +148,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 10,
-        "Passive": {"Name": "Critical Focus", "Description": "25% chance to deal double damage with the next arrow shot after 5 seconds of no attacks."},
+        "Passive": {"Name": "Critical Focus", "Description": "25% chance to deal triple damage with the next arrow shot after 3 rounds of no attacks."},
         "ELOCost": 150,
         "CoinCost": 14000
     },
@@ -149,7 +160,7 @@
         "Attack Time": 6,
         "Idle Time": 4,
         "Cooldown": 15,
-        "Passive": {"Name": "Earthquake Slam", "Description": "15% chance to create a shockwave that knocks back all nearby enemies and deals 100 extra damage."},
+        "Passive": {"Name": "Earthquake Slam", "Description": "15% chance to create a shockwave that disables changing colors for the next 3 rounds for everyone"},
         "ELOCost": 250,
         "CoinCost": 26000
     },
@@ -161,7 +172,7 @@
         "Attack Time": 2,
         "Idle Time": 1,
         "Cooldown": 8,
-        "Passive": {"Name": "Venomous Strike", "Description": "Poison the target, dealing 10% of their max HP per second for 5 seconds."},
+        "Passive": {"Name": "Venomous Strike", "Description": "Poisons the target, dealing 10% of their max HP per second for 5 seconds."},
         "ELOCost": 100,
         "CoinCost": 8000
     },
@@ -185,7 +196,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 15,
-        "Passive": {"Name": "Thunderstruck", "Description": "15% chance to summon a lightning strike, dealing 250 damage to all enemies within a 5-meter radius."},
+        "Passive": {"Name": "Thunderstruck", "Description": "15% chance to summon a lightning strike, dealing 2.5x damage to your opponent"},
         "ELOCost": 150,
         "CoinCost": 16000
     },
@@ -197,7 +208,7 @@
         "Attack Time": 2,
         "Idle Time": 1,
         "Cooldown": 6,
-        "Passive": {"Name": "Shadow Step", "Description": "10% chance to teleport behind the enemy and strike them for bonus damage."},
+        "Passive": {"Name": "Shadow Step", "Description": "10% chance to teleport behind the enemy and strike them for 3x damage."},
         "ELOCost": 50,
         "CoinCost": 7000
     },
@@ -209,7 +220,7 @@
         "Attack Time": 4,
         "Idle Time": 3,
         "Cooldown": 12,
-        "Passive": {"Name": "Frozen Fury", "Description": "Freezes enemies in place for 2 seconds after every 5th attack."},
+        "Passive": {"Name": "Frozen Fury", "Description": "Freezes enemies for one round (their round is skipped) after every 5th attack."},
         "ELOCost": 150,
         "CoinCost": 14000
     },
@@ -245,7 +256,7 @@
         "Attack Time": 1,
         "Idle Time": 3,
         "Cooldown": 8,
-        "Passive": {"Name": "Guardian's Will", "Description": "Reduces all incoming damage by 10% for 5 seconds after being hit."},
+        "Passive": {"Name": "Guardian's Will", "Description": "Reduces all incoming damage by 10% for 1 round after being hit."},
         "ELOCost": 100,
         "CoinCost": 12000
     },
@@ -257,7 +268,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 10,
-        "Passive": {"Name": "Warrior's Resolve", "Description": "Increases attack speed by 10% for 5 seconds after landing 3 hits in a row."},
+        "Passive": {"Name": "Warrior's Resolve", "Description": "Increases attack speed by 10% for 1 round after landing 3 hits in a row."},
         "ELOCost": 150,
         "CoinCost": 13500
     },
@@ -281,7 +292,7 @@
         "Attack Time": 0,
         "Idle Time": 4,
         "Cooldown": 20,
-        "Passive": {"Name": "Iron Wall", "Description": "Reduces all incoming damage by 25% for 10 seconds."},
+        "Passive": {"Name": "Iron Wall", "Description": "50% Chance to reduce all incoming damage by 25% for 1 round"},
         "ELOCost": 400,
         "CoinCost": 35000
     },
@@ -317,7 +328,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 7,
-        "Passive": {"Name": "Golden Fury", "Description": "Every 5th attack critical hits, dealing 150% damage."},
+        "Passive": {"Name": "Golden Fury", "Description": "Every 5th attack deals a critical hit, dealing 250% damage."},
         "ELOCost": 250,
         "CoinCost": 19000
     },
@@ -329,7 +340,7 @@
         "Attack Time": 5,
         "Idle Time": 4,
         "Cooldown": 15,
-        "Passive": {"Name": "Crushing Blow", "Description": "Stuns the target for 2 seconds with a 20% chance after every hit."},
+        "Passive": {"Name": "Crushing Blow", "Description": "Stuns the target for 1 round with a 20% chance after every hit."},
         "ELOCost": 400,
         "CoinCost": 32000
     },
@@ -341,7 +352,7 @@
         "Attack Time": 0,
         "Idle Time": 2,
         "Cooldown": 10,
-        "Passive": {"Name": "Silent Movement", "Description": "Reduces the chance of being detected by 50% for 5 seconds after activation."},
+        "Passive": {"Name": "Silent Movement", "Description": "25% chance to reduce the chance of being hit by 75% for 1 round"},
         "ELOCost": 150,
         "CoinCost": 16000
     },
@@ -365,7 +376,7 @@
         "Attack Time": 6,
         "Idle Time": 5,
         "Cooldown": 18,
-        "Passive": {"Name": "Soul Smite", "Description": "Strikes the target's soul, bypassing defense and dealing true damage."},
+        "Passive": {"Name": "Soul Smite", "Description": "25% chance to strike the target's soul, bypassing defense and dealing true damage."},
         "ELOCost": 500,
         "CoinCost": 42000
     },
@@ -377,7 +388,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 8,
-        "Passive": {"Name": "Radiant Heal", "Description": "Heals nearby allies for 10% of their max HP every 10 seconds."},
+        "Passive": {"Name": "Radiant Heal", "Description": "Heals yourself for 10% of their max HP every 5 rounds."},
         "ELOCost": 150,
         "CoinCost": 13000
     },
@@ -413,7 +424,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 6,
-        "Passive": {"Name": "Bean Barrage", "Description": "Fires a series of beans in quick succession, with each hit having a 10% chance to stun the target for 1 second."},
+        "Passive": {"Name": "Bean Barrage", "Description": "every 10 attacks, you fire a series of beans in quick succession, with each hit having a 10% chance to stun the target for 1 round."},
         "ELOCost": 25,
         "CoinCost": 6000
     },
@@ -425,7 +436,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 8,
-        "Passive": {"Name": "Sprout Growth", "Description": "Each successful hit summons a small vine that grows for 2 seconds, dealing 25 damage per second to nearby enemies."},
+        "Passive": {"Name": "Sprout Growth", "Description": "Each successful hit summons a small vine that grows for 2 seconds, dealing 25 damage per second to your target."},
         "ELOCost": 100,
         "CoinCost": 10000
     },
@@ -449,7 +460,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 10,
-        "Passive": {"Name": "Spicy Slice", "Description": "Every 4th hit causes a fiery explosion, dealing 50 bonus fire damage over 3 seconds and burning nearby enemies."},
+        "Passive": {"Name": "Spicy Slice", "Description": "Every 4th hit causes a fiery explosion, dealing 50 bonus fire damage over 3 seconds and burning your target."},
         "ELOCost": 150,
         "CoinCost": 13500
     },
@@ -461,7 +472,7 @@
         "Attack Time": 5,
         "Idle Time": 4,
         "Cooldown": 15,
-        "Passive": {"Name": "Nightshade Burst", "Description": "Fires a large black bean that explodes on impact, dealing massive damage and slowing all enemies in the blast radius for 3 seconds."},
+        "Passive": {"Name": "Nightshade Burst", "Description": "Every 5 rounds, you fire a large black bean that explodes on impact, dealing massive damage and skipping your targets next turn"},
         "ELOCost": 250,
         "CoinCost": 22500
     },
@@ -473,7 +484,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 7,
-        "Passive": {"Name": "Prismatic Arrow", "Description": "Shoots an arrow that splits into 3 smaller rainbow arrows, each dealing 30% of the original damage and stunning enemies for 1 second."},
+        "Passive": {"Name": "Prismatic Arrow", "Description": "5% chance to shoot an arrow that splits into 3 smaller rainbow arrows, each dealing 30% of the original damage and stunning enemies for 1 second."},
         "ELOCost": 200,
         "CoinCost": 17000
     },
@@ -485,7 +496,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 6,
-        "Passive": {"Name": "Lucky Strike", "Description": "Every 5th hit has a 20% chance to deal bonus gold damage, earning the player 50 coins per hit."},
+        "Passive": {"Name": "Lucky Strike", "Description": "Every 5th hit has a 20% chance to deal bonus gold damage, earning the player 50 coins & 1 ELO per hit."},
         "ELOCost": 100,
         "CoinCost": 8500
     },
@@ -497,7 +508,7 @@
         "Attack Time": 4,
         "Idle Time": 4,
         "Cooldown": 12,
-        "Passive": {"Name": "Giant's Growth", "Description": "A 10% chance to grow the sword’s size by 2x, increasing the attack damage and range for 5 seconds."},
+        "Passive": {"Name": "Giant's Growth", "Description": "A 10% chance to grow the sword’s size by 2x, increasing the attack damage by 1.5x for 3 rounds."},
         "ELOCost": 350,
         "CoinCost": 26500
     },
@@ -509,7 +520,7 @@
         "Attack Time": 5,
         "Idle Time": 3,
         "Cooldown": 10,
-        "Passive": {"Name": "Bean Bash", "Description": "Each strike releases a shockwave that deals 50 damage to enemies in a 3-meter radius."},
+        "Passive": {"Name": "Bean Bash", "Description": "Each strike releases a shockwave that deals 50 damage extra to your target"},
         "ELOCost": 200,
         "CoinCost": 16000
     },
@@ -521,7 +532,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 8,
-        "Passive": {"Name": "Frozen Bean", "Description": "Strikes have a 15% chance to freeze the target for 2 seconds, dealing bonus cold damage."},
+        "Passive": {"Name": "Frozen Bean", "Description": "Strikes have a 15% chance to freeze the target for 1 round, dealing 25% more cold damage for 10s."},
         "ELOCost": 150,
         "CoinCost": 13000
     },
@@ -533,7 +544,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 10,
-        "Passive": {"Name": "Defender’s Shield", "Description": "Grants a 15% damage reduction buff to the user and nearby allies for 5 seconds after every successful hit."},
+        "Passive": {"Name": "Defender’s Shield", "Description": "Grants a 15% damage reduction buff to the user for 1 round after every successful hit."},
         "ELOCost": 100,
         "CoinCost": 11000
     },
@@ -545,7 +556,7 @@
         "Attack Time": 2,
         "Idle Time": 2,
         "Cooldown": 8,
-        "Passive": {"Name": "Stunning Roar", "Description": "Each hit has a 25% chance to stun the target for 1.5 seconds and deals bonus damage equal to 10% of the target's max HP."},
+        "Passive": {"Name": "Stunning Roar", "Description": "Each hit has a 25% chance to stun the target for 1 round and deals bonus damage equal to 10% of the target's max HP."},
         "ELOCost": 200,
         "CoinCost": 19000
     },
@@ -581,7 +592,7 @@
         "Attack Time": 3,
         "Idle Time": 2,
         "Cooldown": 9,
-        "Passive": {"Name": "Frozen Grasp", "Description": "Each attack has a 20% chance to freeze the enemy for 2 seconds and reduce their movement speed by 30% for 5 seconds."},
+        "Passive": {"Name": "Frozen Grasp", "Description": "Each attack has a 20% chance to freeze the enemy for 2 seconds and reduce their reaction speed by 30% for 5 seconds."},
         "ELOCost": 150,
         "CoinCost": 13500
     }
