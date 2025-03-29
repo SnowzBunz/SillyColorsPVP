@@ -23,15 +23,15 @@
         "CoinCost": "Developer Only"
     },
         "WeaponName": "Janitor",
-        "ATK": 350000,
+        "ATK": 35000,
         "DEF": 1,
         "Image": "",
         "Attack Time": 10,
         "Idle Time": 3,
         "Cooldown": 15,
         "Passive": {"Name": "Dust", "Description": "25% To sweep dust into the enemys face, skipping their next turn"},
-        "ELOCost": "Developer Only",
-        "CoinCost": "Developer Only"
+        "ELOCost": "ARG Reward",
+        "CoinCost": "ARG Reward"
     },
     {
         "WeaponName": "Bug Slayer",
