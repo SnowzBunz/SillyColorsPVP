@@ -23,6 +23,7 @@
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
     },
+    {
         "WeaponName": "Sherrifs Business",
         "ATK": 25000,
         "DEF": 1950,
@@ -33,6 +34,7 @@
         "Passive": {"Name": "Sharpshooter", "Description": "5% Chance to fire 6 bullets, breaking the enemys attack & defend buttons for 3 rounds"},
         "ELOCost": "Developer Only",
         "CoinCost": "Developer Only"
+    },
     {
         "WeaponName": "Abyss Touched Blade",
         "ATK": 27500,
@@ -44,6 +46,7 @@
         "Passive": {"Name": "Omen Of Ruff", "Description": "Darkens the everyones screen for 5 Seconds. 1% To Instant Kill"},
         "ELOCost": "Ruff Only",
         "CoinCost": "Ruff Only"
+    {
     },
         "WeaponName": "THE LEGEND",
         "ATK": 7500,
@@ -56,6 +59,7 @@
         "ELOCost": "ARG2 Reward",
         "CoinCost": "ARG2 Reward"
     },
+    {
         "WeaponName": "Janitor",
         "ATK": 3500,
         "DEF": 750,
@@ -66,6 +70,30 @@
         "Passive": {"Name": "Dust", "Description": "25% To sweep dust into the enemys face, skipping their next turn"},
         "ELOCost": "ARG1 Reward",
         "CoinCost": "ARG1 Reward"
+    },
+    {
+        "WeaponName": "Vines Of Glory",
+        "ATK": 250,
+        "DEF": 500,
+        "Image": "",
+        "Attack Time": 10,
+        "Idle Time": 3,
+        "Cooldown": 15,
+        "Passive": {"Name": "Call For Help", "Description": "Only Three Left..."},
+        "ELOCost": "ARG2 Good Ending",
+        "CoinCost": "ARG2 Good Ending"
+    },
+    {
+        "WeaponName": "Karma...",
+        "ATK": 500,
+        "DEF": 250,
+        "Image": "",
+        "Attack Time": 10,
+        "Idle Time": 3,
+        "Cooldown": 15,
+        "Passive": {"Name": "Reduced to dust...", "Description": "Take hold of the 3 BeanSouls and increase your ATK by 300%"},
+        "ELOCost": "ARG2 Bad Ending",
+        "CoinCost": "ARG2 Bad Ending"
     },
     {
         "WeaponName": "Bug Slayer",
