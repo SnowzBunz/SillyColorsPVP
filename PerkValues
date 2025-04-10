@@ -174,4 +174,60 @@
     "Effect": "1% to lasso your enemy during an ATK (20% if using Sherrifs Business), stunning them for the next 3 rounds, but you have the chance to lasso yourself (5%) and take the effects while defending ",
     "Image": ""
   }
+ {
+    "Name": "Kindness",
+    "Elo": "Green Bean, chosen first time playing PVP",
+    "Coin": "Green Bean, chosen first time playing PVP",
+    "Effect": "Gain 15% damage resistance and reflect 5% damage back to attacker, but cannot land critical hits",
+    "Image": ""
+  },
+  {
+    "Name": "Empathy",
+    "Elo": "Pink Bean, chosen first time playing PVP",
+    "Coin": "Pink Bean, chosen first time playing PVP",
+    "Effect": "Heals 10% of damage dealt, but you deal 10% less total damage",
+    "Image": ""
+  },
+  {
+    "Name": "Determination",
+    "Elo": "Red Bean, chosen first time playing PVP",
+    "Coin": "Red Bean, chosen first time playing PVP",
+    "Effect": "If reduced to 0 HP, you have a 25% chance of reviving yourself to 5% your max HP",
+    "Image": ""
+  },
+  {
+    "Name": "Justice",
+    "Elo": "Yellow Bean, chosen first time playing PVP",
+    "Coin": "Yellow Bean, chosen first time playing PVP",
+    "Effect": "Deal 25% More ATK at the cost of loosing 50% of your DEF",
+    "Image": ""
+  },
+  {
+    "Name": "Balance",
+    "Elo": "White Bean, chosen first time playing PVP",
+    "Coin": "White Bean, chosen first time playing PVP",
+    "Effect": "Gain 10% bonus to all stats when HP is between 0% and 50%, but no bonus outside that range",
+    "Image": ""
+  },
+  {
+    "Name": "Perseverance",
+    "Elo": "Purple Bean, chosen first time playing PVP",
+    "Coin": "Purple Bean, chosen first time playing PVP",
+    "Effect": "Debuffs you apply last 50% longer, but your own status effects last 25% longer too",
+    "Image": ""
+  },
+  {
+    "Name": "Bravery",
+    "Elo": "Orange Bean, chosen first time playing PVP",
+    "Coin": "Orange Bean, chosen first time playing PVP",
+    "Effect": "25% More ATK, but you lose 25% of your DEF",
+    "Image": ""
+  },
+  {
+    "Name": "Integrity",
+    "Elo": "Blue Bean, chosen first time playing PVP",
+    "Coin": "Blue Bean, chosen first time playing PVP",
+    "Effect": "Ability to change 25% of your ATK into DEF",
+    "Image": ""
+  }
 ]
